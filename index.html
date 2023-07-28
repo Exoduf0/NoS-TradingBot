@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Binance AI Crypto Trading Bot</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            content: "";
+            background: linear-gradient(to right, #73367e, #222);
+            animation: backgroundAnimation 20s infinite;
+            padding: 20px;
+        }
+
+            header h1 {
+                font-size: 29px;
+                text-align: center;
+                margin: 0;
+            }
+
+        section.features,
+        section.theme,
+        section.animation,
+        section.pricing,
+        section.about-us {
+            background-color: #111;
+            padding: 50px;
+            margin-bottom: 30px;
+        }
+
+            section.features h2,
+            section.theme h2,
+            section.animation h2,
+            section.pricing h2,
+            section.about-us h2 {
+                font-size: 24px;
+                margin: 0;
+                color: #fff;
+            }
+
+            section.features ul {
+                margin: 20px 0 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            section.features li {
+                margin-bottom: 10px;
+            }
+
+                section.features li::before {
+                    content: "✓";
+                    color: #00ff00;
+                    margin-right: 10px;
+                }
+
+            section.pricing .plans {
+                display: flex;
+                justify-content: space-between;
+                margin: 30px 0;
+            }
+
+            section.pricing .plan {
+                padding: 10px;
+                text-align: center;
+                background-color: #444;
+                color: #fff;
+                width: calc(30% - 20px); /* Adjust the width as needed */
+            }
+
+                section.pricing .plan h3 {
+                    font-size: 18px;
+                    margin: 0;
+                }
+
+                section.pricing .plan p {
+                    margin-bottom: 10px;
+                }
+
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3a0944;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+            .buy-button:hover {
+                background-color: #4f0d61;
+            }
+
+        @media (max-width: 768px) {
+            section.pricing .plans {
+                flex-wrap: wrap;
+            }
+
+            section.pricing .plan {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Animated Background */
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: linear-gradient(to left, #73367e, #222);
+            animation: backgroundAnimation 40s infinite;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        </style>
+        </head >
+<body>
+    <header>
+        <h1> Binance AI Crypto Trading Bot</h1>
+    </header>
+
+    <section class="features">
+        <h2> Features:</h2>
+        <ul>
+            <li> <strong> AI-Based Algorithm:</strong> Our trading bot utilizes advanced artificial intelligence algorithms to analyze market trends and make informed trading decisions.</li>
+            <li> <strong> Short and Long Strategy:</strong> Our bot is capable of executing both short-term and long-term trading strategies, depending on market conditions.</li>
+            <li> <strong> Low and High Risk:</strong> We offer different risk levels to cater to various investor preferences. Choose between low-risk and high-risk options.</li>
+            <li> <strong> A Wide Range of Supported Crypto:</strong> Our bot supports a variety of cryptocurrencies, allowing you to diversify your investment portfolio.</li>
+            <li> <strong> One-Time Payment:</strong> No recurring fees or subscription plans. Pay once and access our trading bot for a lifetime.</li>
+            <li> <strong> Privacy:</strong> We prioritize the security and confidentiality of your personal information. Your data is encrypted and protected.</li>
+        </ul>
+    </section>
+
+    <section class="pricing">
+        <h2> Pricing:</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3> Basic</h3>
+                <p> Features:</p>
+                <p> Support for 80% Coins on Binance </p>
+                <p> Support for Every Platform (like linux) </p>
+                <p> Fast Support </p>
+                <p> Easy to Use </p>
+                <p> $10</p>
+                <a href="https://discord.gg/vZzkGhWE" class="buy-button"> Buy</a>
+            </div>
+            <div class="plan">
+                <h3> Premium</h3>
+                <p> Support for 90% Coins on Binance </p>
+                <p> Support for Every Platform (like linux) </p>
+                <p> Fast Support </p>
+                <p> Easy to Use </p>
+                <p> $15</p>
+                <a href="https://discord.gg/vZzkGhWE" class="buy-button"> Buy</a>
+            </div>
+            <div class="plan">
+                <h3> V.I.P</h3>
+                <p> Support for 100% Coins on Binance </p>
+                <p> Support for Every Platform (like linux) </p>
+                <p> 24/7 Support </p>
+                <p> Improved Algorithm </p>
+                <p> Easy to Use </p>
+                <p> $20</p>
+                <a href="https://discord.gg/vZzkGhWE" class="buy-button"> Buy</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2> About Us:</h2>
+        <p> NoS Team is a group of highly advanced JavaScript and Python developers with extensive experience in creating advanced projects. Our team remains anonymous, but we are dedicated to providing cutting-edge technologies and solutions for crypto trading. With our expertise, we have developed the Binance AI Crypto Trading Bot to help traders optimize their investments and maximize their profits.</p>
+    </section>
+
+    <section class="about-us">
+        <h2> About Price:</h2>
+        <p>
+            At Binance, we proudly present our revolutionary product, the Binance Ai Trading Bot. Its pricing is deliberately set low because we initially developed it for our own usage. However, our aim is not solely to profit from trading cryptocurrencies; we also wish to make this incredible technology accessible to the wider community.
+        </p>
+        <p>
+            By offering our Ai Trading Bot at an affordable price, we want to empower traders of all levels to experience the advantages of automated trading. Our primary goal is to spread the benefits of our cutting-edge technology, providing a seamless trading experience and increasing profitability for our users.
+        </p>
+        <p>
+            With the Binance Ai Trading Bot, you can effortlessly execute trades, analyze market trends, and make informed decisions with greater efficiency. We believe that by democratizing access to this powerful tool, traders can harness its potential to optimize their trading strategies and maximize their gains.
+        </p>
+        <p>
+            Join us today and take advantage of our low-priced Binance Ai Trading Bot. Let's transform the way you trade and ensure your success in the dynamic crypto market. Together, we can unlock endless possibilities in the world of trading.
+        </p>
+    </section>
+
+    <section class="about-us">
+        <h2> About Website:</h2>
+        <p>
+            Our website may appear simplistic to some, but there's a reasoning behind its design. We believe in investing our time and resources into developing an outstanding AI Trading bot at Binance. Designing an elaborate and advanced website distracts us from our primary goal—delivering an exceptional product to our customers.
+        </p>
+        <p>
+            While some may associate a minimalistic design with potential scams, we assure you that the appearance of our website has no implication on the legitimacy of our product. Our focus lies in providing a reliable and efficient Binance AI Trading bot that meets the needs of our users.
+        </p>
+        We understand that aesthetics play a significant role in building trust, but we prioritize functionality and ease of navigation over extravagant visuals. Our straightforward layout ensures that visitors can quickly find the information they need and make informed decisions regarding purchasing our Binance AI Trading bot.
+        <p>
+            If you feel uncertain about the credibility of our website due to its appearance, we encourage you to explore more about our product, read customer testimonials, and reach out to us for any clarification. Rest assured that quality and customer satisfaction are our top priorities, and the simplicity of our website does not reflect the excellence of our Binance AI Trading bot.
+        </p>
+    </section>
+</body>
+</html >
